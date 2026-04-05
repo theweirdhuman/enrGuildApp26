@@ -45,7 +45,7 @@ class pingPongEnr(Node):
         msg.angular.z = 0.0
         self.pubBall.publish(msg)
         
-        #create subscriptions? services? idk smth in order to get positions of turtles
+        #create subscriptions
         self.poseBall = None
         self.posePlayer = None
         self.cmdPlayer = None
